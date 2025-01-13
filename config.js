@@ -6,17 +6,17 @@ const fs = require("fs");
 global.available = false;
 global.autoReadGc = false;
 global.autoReadAll = false;
-global.antitags = false;
+global.antitags = true;
 
 
 //auto functioner
 global.autoTyping = false;                //make true to enable auto typing
-global.autoRecord = true;                //make true to enable auto recording
+global.autoRecord = false;                //make true to enable auto recording
 global.autoviewstatus = true;                 //make true to view statuses 
 global.anticall = false
 
 
-global.SESSION_ID = process.env.SESSION_ID || "taira_tech-L9kRXT7R#N8XwHlbvtGu31o82YDQJ_f30k0c3TTsZrFQ7_ICOR8o"
+global.SESSION_ID = process.env.SESSION_ID || "taira_tech-Pw8BzBRT#9ZFw_KlEcKNejV3h1gqftGrI3z_6hMimivR2B9zPyik"
 global.Owner = ["2349019760022"]; //like 2347080968564 
 global.OwnerName =  "T";
 global.BotName = "♱MAKINO-MD-V2♱♡⃤";
